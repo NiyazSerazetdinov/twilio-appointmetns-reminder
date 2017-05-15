@@ -1,8 +1,6 @@
 # Simple Twilio SMS reply app
 
-Third-party service badges (if available)
-
-[![Build Status](https://semaphoreci.com/api/v1/niyazserazetdinov/twilio-appointmetns-reminder/branches/add-simple-sms-sender/shields_badge.svg)](https://semaphoreci.com/niyazserazetdinov/twilio-appointmetns-reminder)
+[![Build Status](https://semaphoreci.com/api/v1/niyazserazetdinov/twilio-appointmetns-reminder/branches/master/shields_badge.svg)](https://semaphoreci.com/niyazserazetdinov/twilio-appointmetns-reminder)
 [![Code Climate](https://codeclimate.com/github/NiyazSerazetdinov/twilio-appointmetns-reminder.png)](https://codeclimate.com/github/NiyazSerazetdinov/twilio-appointmetns-reminder)
 
 ## Project description
