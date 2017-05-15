@@ -8,6 +8,9 @@
 Simple app sending sms in reply.
 It's based on Rails 5 and Ruby 2.3.3.
 
+Try it out by sending sms on +12034032905 number and in a few seconds you will receive short message.
+All sent messages are [listed](https://twilio-appointmetns-reminder.herokuapp.com/messages/index).
+
 Setup required dependencies from `Brewfile`:
 ```bash
 brew tap Homebrew/bundle
@@ -39,7 +42,7 @@ bin/server
 
 ## Staging
 
-
+https://twilio-appointmetns-reminder.herokuapp.com/messages/index
 
 ## Production
 

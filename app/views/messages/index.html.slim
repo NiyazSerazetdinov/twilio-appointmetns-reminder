@@ -1,0 +1,24 @@
+.row
+  .columns
+    h2
+      = title("Messages")
+
+    h4 Here you can observe list of received messages
+    .row
+      - if messages.any?
+        table.table
+          tr
+            th From
+            th Direction
+            th Message
+
+          - messages.each do |message|
+            tr
+              td
+                = message.from
+              td
+                = message.direction
+              td
+                = message.body
+      - else
+       | There is no messages
