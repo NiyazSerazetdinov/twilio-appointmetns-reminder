@@ -28,5 +28,11 @@ module RailsBase
 
     # Set URL options to be able to use url_for helpers
     config.action_mailer.default_url_options = { host: ENV.fetch("HOST") }
+
+    if Rails.env.development?
+      routes.default_url_options[:host] = ENV.fetch('NGROK_HOST', '')
+    else
+      routes.default_url_options[:host] = ENV.fetch('HOST', '')
+    end
   end
 end
